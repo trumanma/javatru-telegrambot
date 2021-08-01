@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4cbada3-8e74-45c2-81e7-6106eef684df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/trumanma/javatrutelegrambot/bot/TrujavaTelegrabot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/trumanma/javatrutelegrambot/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/trumanma/javatrutelegrambot/command/CommandContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/trumanma/javatrutelegrambot/command/CommandName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/trumanma/javatrutelegrambot/command/HelpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/trumanma/javatrutelegrambot/command/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/trumanma/javatrutelegrambot/command/StartCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/trumanma/javatrutelegrambot/command/StopCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/trumanma/javatrutelegrambot/command/UnknownCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/trumanma/javatrutelegrambot/service/SendBotMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/trumanma/javatrutelegrambot/service/SendBotMessageServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javatru-telegrambot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javatru-telegrambot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/trumanma/javatrutelegrambot/bot/TrujavaTelegrabot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/trumanma/javatrutelegrambot/bot/TrujavaTelegrabot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,22 +60,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,7 +96,9 @@
       <updated>1627587118767</updated>
       <workItem from="1627587121476" duration="1007000" />
       <workItem from="1627662461759" duration="4894000" />
-      <workItem from="1627669991894" duration="4062000" />
+      <workItem from="1627669991894" duration="4481000" />
+      <workItem from="1627683439334" duration="779000" />
+      <workItem from="1627767905546" duration="9269000" />
     </task>
     <task id="LOCAL-00001" summary="JT - 0: create Skeleton Spring boot project">
       <created>1627663117754</created>
@@ -114,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627668219835</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JT - 2: add telegram bot to the project">
+      <created>1627675112845</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627675112845</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +177,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JT - 0: create Skeleton Spring boot project" />
-    <option name="LAST_COMMIT_MESSAGE" value="JT - 0: create Skeleton Spring boot project" />
+    <MESSAGE value="JT - 2: add telegram bot to the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="JT - 2: add telegram bot to the project" />
   </component>
 </project>
